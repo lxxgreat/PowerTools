@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">电流计</string>
+    <string name="build_number">版本号</string>
+    <string name="display">显示电流值</string>
+    <string name="current">当前电流值</string>
+    <string name="hidden">关闭显示</string>
+    <string name="charging">充电:\t<xliff:g id="charging">%d</xliff:g>mA</string>
+    <string name="discharging">放电:\t<xliff:g id="discharging">%d</xliff:g>mA</string>
+    <string name="battery_temp">电池:\t<xliff:g id="battery_temp">%.1f</xliff:g>℃</string>
+    <string name="avg">平均:\t<xliff:g id="avg">%d</xliff:g>mA</string>
+    <string name="cpu_mode">CPU模式:\t<xliff:g id="cpu_mode">%s</xliff:g></string>
+    <string name="lcd_mode">屏幕模式:\t<xliff:g id="lcd_mode">%s</xliff:g></string>
+    <string name="fps">刷新率:\t<xliff:g id="fps">%.1f</xliff:g></string>
+    <string name="top_activity">当前活动名:\t<xliff:g id="top_activity">%s</xliff:g></string>
+    <string name="brightness">屏幕背光度:<xliff:g id="brightness">%d</xliff:g></string>
+    <string name="light">光传感器:<xliff:g id="light">%d</xliff:g></string>
+    <string name="start">开始</string>
+    <string name="stop">结束</string>
+    <string name="start_avg">开始计算平均电流值...</string>
+    <string name="drag">拖动可改变位置</string>
+    <string name="not_support">不支持该机型</string>
+    <string name="enable_service_title">开启显示服务</string>
+    <string name="enable_service_summary">在屏幕右上角动态显示电池信息</string>
+    <string name="battery_group_title">电池信息</string>
+    <string name="battery_group_current_now">实时电流</string>
+    <string name="battery_group_current_now_summary">显示电池当前的实时电流值</string>
+    <string name="battery_group_current_avg">平均电流</string>
+    <string name="battery_group_current_avg_summary">显示电池5秒内的平均电流值</string>
+    <string name="battery_group_current_temp">电池温度</string>
+    <string name="battery_group_current_temp_summary">显示电池当前温度</string>
+    <string name="mode_group_title">模式信息</string>
+    <string name="mode_group_cpu">CPU模式</string>
+    <string name="mode_group_cpu_summary">显示CPU场景模式</string>
+    <string name="mode_group_lcd">屏幕模式</string>
+    <string name="mode_group_lcd_summary">显示屏幕场景模式</string>
+    <string name="other_group_title">其他信息</string>
+    <string name="other_group_fps">实时刷新率</string>
+    <string name="other_group_brightness">屏幕背光度</string>
+    <string name="other_group_light">光传感器</string>
+    <string name="other_group_brightness_summary">显示屏幕背光亮度值</string>
+    <string name="other_group_light_summary">显示屏幕光传感器值</string>
+    <string name="other_group_fps_summary">显示屏幕实时刷新频率</string>
+    <string name="dialog_display_fps_title">显示实时刷新率</string>
+    <string name="dialog_display_fps_content">显示实时刷新率会增加手机耗电, 你确定打开吗?</string>
+    <string name="other_group_top_activity">顶层活动</string>
+    <string name="other_group_top_activity_summary">显示当前活动名称</string>
+    <string name="statistics_group_title">统计功能</string>
+    <string name="statistics_group_current_avg_title">统计时间段平均电流值</string>
+    <string name="statistics_group_current_avg_summary">统计指定时间段的平均电流值并写入/sdcrad/current.log日志文件</string>
+
+</resources>

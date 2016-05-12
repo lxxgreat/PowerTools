@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cpu_mode_keys" translatable="false">
+        <item>low</item>
+        <item>middle</item>
+        <item>high</item>
+    </string-array>
+    <string-array name="lcd_mode_keys" translatable="false">
+        <item>ui</item>
+        <item>still</item>
+        <item>movie</item>
+    </string-array>
+    <string-array name="lcd_mode_new_keys" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="cpu_mode_values">
+        <item>Battery saving</item>
+        <item>Balance</item>
+        <item>Performance</item>
+    </string-array>
+    <string-array name="lcd_mode_values">
+        <item>Standard</item>
+        <item>Picture</item>
+        <item>Movie</item>
+    </string-array>
+
+</resources>

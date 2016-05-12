@@ -1,0 +1,85 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="enable_service"
+        android:persistent="true"
+        android:summary="@string/enable_service_summary"
+        android:title="@string/enable_service_title" />
+
+    <PreferenceCategory
+        android:key="battery_group"
+        android:title="@string/battery_group_title" >
+
+        <CheckBoxPreference
+            android:key="current_now"
+            android:summary="@string/battery_group_current_now_summary"
+            android:title="@string/battery_group_current_now" />
+
+        <CheckBoxPreference
+            android:key="current_avg"
+            android:summary="@string/battery_group_current_avg_summary"
+            android:title="@string/battery_group_current_avg" />
+
+        <CheckBoxPreference
+            android:key="battery_temp"
+            android:summary="@string/battery_group_current_temp_summary"
+            android:title="@string/battery_group_current_temp" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="mode_group"
+        android:title="@string/mode_group_title" >
+
+        <CheckBoxPreference
+            android:key="mode_group_cpu"
+            android:summary="@string/mode_group_cpu_summary"
+            android:title="@string/mode_group_cpu" />
+
+        <CheckBoxPreference
+            android:key="mode_group_lcd"
+            android:summary="@string/mode_group_lcd_summary"
+            android:title="@string/mode_group_lcd" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="other_group"
+        android:title="@string/other_group_title" >
+
+        <CheckBoxPreference
+            android:key="other_group_brightness"
+            android:summary="@string/other_group_brightness_summary"
+            android:title="@string/other_group_brightness" />
+
+        <CheckBoxPreference
+            android:key="other_group_light"
+            android:summary="@string/other_group_light_summary"
+            android:title="@string/other_group_light" />
+
+        <CheckBoxPreference
+            android:key="other_group_fps"
+            android:summary="@string/other_group_fps_summary"
+            android:title="@string/other_group_fps" />
+
+        <CheckBoxPreference
+            android:key="other_group_top_activity"
+            android:summary="@string/other_group_top_activity_summary"
+            android:title="@string/other_group_top_activity" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="statistics_group"
+        android:title="@string/statistics_group_title" >
+
+        <CheckBoxPreference
+            android:key="statistics_group_current_avg"
+            android:summary="@string/statistics_group_current_avg_summary"
+            android:title="@string/statistics_group_current_avg_title" />
+    </PreferenceCategory>
+
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:key="build_number"
+        android:summary="@string/build_version"
+        android:title="@string/build_number" />
+
+</PreferenceScreen>

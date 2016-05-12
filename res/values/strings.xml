@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">CurrentNow</string>
+    <string name="build_version">1.2.1</string>
+    <string name="build_number">Build Version</string>
+    <string name="display">Display Current</string>
+    <string name="current">Current Value</string>
+    <string name="hidden">Hidden Current</string>
+    <string name="charging">charging:\t<xliff:g id="charging">%d</xliff:g>mA</string>
+    <string name="discharging">discharging:\t<xliff:g id="discharging">%d</xliff:g>mA</string>
+    <string name="battery_temp">battery:\t<xliff:g id="battery_temp">%.1f</xliff:g>℃</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="start_avg">start computing average current...</string>
+    <string name="scaling_cur_freq">scaling_cur_freq:\t<xliff:g id="scaling_cur_freq">%d</xliff:g></string>
+    <string name="scaling_max_freq">scaling_max_freq:\t<xliff:g id="scaling_max_freq">%d</xliff:g></string>
+    <string name="avg">AVG:\t<xliff:g id="avg">%d</xliff:g>mA</string>
+    <string name="cpu_mode">CPU mode:\t<xliff:g id="cpu_mode">%s</xliff:g></string>
+    <string name="lcd_mode">LCD mode:\t<xliff:g id="lcd_mode">%s</xliff:g></string>
+    <string name="fps">FPS:\t<xliff:g id="fps">%.1f</xliff:g></string>
+    <string name="top_activity">Top Activity:\t<xliff:g id="top_activity">%s</xliff:g></string>
+    <string name="brightness">Brightness:<xliff:g id="brightness">%d</xliff:g></string>
+    <string name="light">Light:<xliff:g id="light">%d</xliff:g></string>
+    <string name="not_support">NOT SUPPORT</string>
+    <string name="drag">drag to move</string>
+    <string name="enable_service_title">Display options</string>
+    <string name="enable_service_summary">Display battery info on right of screen</string>
+    <string name="battery_group_title">Battery info</string>
+    <string name="battery_group_current_now">Current now</string>
+    <string name="battery_group_current_now_summary">realtime current</string>
+    <string name="battery_group_current_avg">Average current</string>
+    <string name="battery_group_current_avg_summary">Average current in 5 seconds</string>
+    <string name="battery_group_current_temp">Battery temp.</string>
+    <string name="battery_group_current_temp_summary">Current battery temp</string>
+    <string name="mode_group_title">Mode info</string>
+    <string name="mode_group_cpu">Cpu mode</string>
+    <string name="mode_group_cpu_summary">cpu mode</string>
+    <string name="mode_group_lcd">Lcd mode</string>
+    <string name="mode_group_lcd_summary">lcd mode</string>
+    <string name="other_group_title">Other Info</string>
+    <string name="other_group_fps">FPS</string>
+    <string name="other_group_fps_summary">Display current FPS</string>
+    <string name="other_group_brightness">Brightness</string>
+    <string name="other_group_light">Light</string>
+    <string name="other_group_brightness_summary">Display Brightness</string>
+    <string name="other_group_light_summary">Display light</string>
+    <string name="dialog_display_fps_title">Warning</string>
+    <string name="dialog_display_fps_content">Are you sure to enable this feature?</string>
+    <string name="other_group_top_activity">Top Activity</string>
+    <string name="other_group_top_activity_summary">Display current top activity name</string>
+    <string name="statistics_group_title">Statistics</string>
+    <string name="statistics_group_current_avg_title">compute average current during some time</string>
+    <string name="statistics_group_current_avg_summary">write the value into /sdcrad/current.log</string>
+
+</resources>

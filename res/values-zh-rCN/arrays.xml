@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cpu_mode_values">
+        <item>省电模式</item>
+        <item>均衡模式</item>
+        <item>性能模式</item>
+    </string-array>
+    <string-array name="lcd_mode_values">
+        <item>标准模式</item>
+        <item>照片模式</item>
+        <item>电影模式</item>
+    </string-array>
+
+</resources>
